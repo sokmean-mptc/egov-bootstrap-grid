@@ -1,0 +1,17 @@
+{
+  "name": "egov-bootstrap-grid",
+  "version": "0.0.1",
+  "description": "A full fill Bootstrap grid system for WordPress Gutenberg plugin.",
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "cgb-scripts": "^1.23.0"
+  },
+  "main": "index.js",
+  "author": "sokmean-mptc",
+  "license": "MIT"
+}

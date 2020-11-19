@@ -1,0 +1,15 @@
+{
+    "name": "sokmean-mptc/egov-bootstrap-grid",
+    "description": "A full fill Bootstrap grid system for WordPress gutenberg plugin.",
+    "authors": [
+        {
+            "name": "sokmean-mptc",
+            "email": "ngonsokmean@mptc.gov.kh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "inc/"}
+    }
+}

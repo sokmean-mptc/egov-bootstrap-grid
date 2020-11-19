@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/src/components/Column.jsx:96
+#: assets/src/components/RowColumns.jsx:68
+msgid "1"
+msgstr ""
+
+#: assets/src/components/Column.jsx:97
+#: assets/src/components/RowColumns.jsx:69
+msgid "2"
+msgstr ""
+
+#: assets/src/components/Column.jsx:98
+#: assets/src/components/RowColumns.jsx:70
+msgid "3"
+msgstr ""
+
+#: assets/src/components/Column.jsx:99
+#: assets/src/components/RowColumns.jsx:71
+msgid "4"
+msgstr ""
+
+#: assets/src/components/Column.jsx:100
+#: assets/src/components/RowColumns.jsx:72
+msgid "5"
+msgstr ""
+
+#: assets/src/components/Column.jsx:101
+#: assets/src/components/RowColumns.jsx:73
+msgid "6"
+msgstr ""
+
+#: assets/src/components/Column.jsx:102
+msgid "7"
+msgstr ""
+
+#: assets/src/components/Column.jsx:103
+msgid "8"
+msgstr ""
+
+#: assets/src/components/Column.jsx:104
+msgid "9"
+msgstr ""
+
+#: assets/src/components/Column.jsx:105
+msgid "10"
+msgstr ""
+
+#: assets/src/components/Column.jsx:106
+msgid "11"
+msgstr ""
+
+#: assets/src/components/Column.jsx:107
+msgid "12"
+msgstr ""
+
+#: assets/src/bootstrap-column/index.js:11
+msgid "Bootstrap Column"
+msgstr ""
+
+#: assets/src/bootstrap-column/index.js:15
+msgid "bootstrap column"
+msgstr ""
+
+#: assets/src/bootstrap-column/index.js:16
+#: assets/src/bootstrap-row/index.js:18
+msgid "grid"
+msgstr ""
+
+#: assets/src/bootstrap-column/index.js:63
+msgid "Column Option"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:10
+msgid "Bootstrap Container"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:13
+msgid "bootstrap"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:13
+msgid "container"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:13
+msgid "egov"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:13
+msgid "grid system"
+msgstr ""
+
+#: assets/src/bootstrap-container/index.js:42
+#: assets/src/components/ContainerOption.jsx:9
+msgid "Container Option"
+msgstr ""
+
+#: assets/src/bootstrap-row/index.js:12
+msgid "Bootstrap Row"
+msgstr ""
+
+#: assets/src/bootstrap-row/index.js:16
+msgid "bootstrap row"
+msgstr ""
+
+#: assets/src/bootstrap-row/index.js:17
+msgid "EgovBlock Bootstrap Row"
+msgstr ""
+
+#: assets/src/bootstrap-row/index.js:65
+msgid "Enable No Gutter"
+msgstr ""
+
+#: assets/src/bootstrap-row/index.js:73
+msgid "Row Option"
+msgstr ""
+
+#: assets/src/components/Column.jsx:27
+msgid "Column SM"
+msgstr ""
+
+#: assets/src/components/Column.jsx:48
+msgid "Column MD"
+msgstr ""
+
+#: assets/src/components/Column.jsx:69
+msgid "Column LG"
+msgstr ""
+
+#: assets/src/components/Column.jsx:7
+msgid "Column XS"
+msgstr ""
+
+#: assets/src/components/Column.jsx:90
+msgid "Column XL"
+msgstr ""
+
+#: assets/src/components/Column.jsx:94
+#: assets/src/components/RowColumns.jsx:67
+msgid "Bypass"
+msgstr ""
+
+#: assets/src/components/Column.jsx:95
+#: assets/src/components/RowColumns.jsx:11
+msgid "Auto"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:12
+msgid "No Container"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:13
+msgid "Container"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:14
+msgid "Container SM"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:15
+msgid "Container MD"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:16
+msgid "Container LG"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:17
+msgid "Container XL"
+msgstr ""
+
+#: assets/src/components/ContainerOption.jsx:18
+msgid "Container Fluid"
+msgstr ""
+
+#: assets/src/components/MarkText.jsx:9
+msgid "Mark Text"
+msgstr ""
+
+#: assets/src/components/RowColumns.jsx:21
+msgid "Row Columns SM"
+msgstr ""
+
+#: assets/src/components/RowColumns.jsx:35
+msgid "Row Columns MD"
+msgstr ""
+
+#: assets/src/components/RowColumns.jsx:49
+msgid "Row Columns LG"
+msgstr ""
+
+#: assets/src/components/RowColumns.jsx:63
+msgid "Row Columns XL"
+msgstr ""
+
+#: assets/src/components/RowColumns.jsx:7
+msgid "Row Columns XS"
+msgstr ""
