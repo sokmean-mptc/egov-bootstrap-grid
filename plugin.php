@@ -22,15 +22,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once plugin_dir_path( __FILE__ ) . "vendor/autoload.php";
 
 function egov_bootstrap_grid_activate() {
-	Inc\Base\Activate::activate();
+	EBG\Base\Activate::activate();
 }
 register_activation_hook( __FILE__, "egov_bootstrap_grid_activate" );
 
 function egov_bootstrap_grid_deactivate() {
-	Inc\Base\Deactivate::deactivate();
+	EBG\Base\Deactivate::deactivate();
 }
 register_deactivation_hook( __FILE__, "egov_bootstrap_grid_deactivate" );
 
-if( class_exists( "Inc\\Init" ) ) {
-	Inc\Init::registerServices();
+if( class_exists( "EBG\Init" ) ) {
+	EBG\Init::registerServices();
 }

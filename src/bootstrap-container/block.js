@@ -11,7 +11,7 @@ const { Fragment } = wp.element;
 registerBlockType( 'egov-bootstrap-grid/bootstrap-container', {
 	title: __( 'Bootstrap Container', 'egov' ),
 	icon: 'admin-page',
-    category: 'egov',
+    category: 'egov-bootstrap-grid',
     keywords: [ __( 'bootstrap', 'egov' ), __( 'container', 'egov' ), __( 'egov', 'egov' ), __( 'grid system', 'egov' ) ],
 	attributes: {
 		mark_text: {

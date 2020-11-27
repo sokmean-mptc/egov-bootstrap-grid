@@ -4,7 +4,7 @@
  * @package Egov
  */
 
-namespace Inc\Base;
+namespace EBG\Base;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {

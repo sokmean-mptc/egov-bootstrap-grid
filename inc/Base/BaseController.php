@@ -4,7 +4,7 @@
  * @package Egov
  */
 
-namespace Inc\Base;
+namespace EBG\Base;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -38,13 +38,13 @@ class BaseController
 
         switch ( $count ) {
             case 2:
-                $value = number_format_i18n( $number/1000, 1 ) . __( 'K', 'egov-block' );
+                $value = number_format_i18n( $number/1000, 1 ) . __( 'K', 'egov' );
                 break;
             case 3:
-                $value = number_format_i18n( $number/1000000, 1 ) . __( 'M', 'egov-block' );
+                $value = number_format_i18n( $number/1000000, 1 ) . __( 'M', 'egov' );
                 break;
             case 4:
-                $value = number_format_i18n( $number/1000000000, 1 ) . __( 'G', 'egov-block' );
+                $value = number_format_i18n( $number/1000000000, 1 ) . __( 'G', 'egov' );
                 break;
             default:
                 $value = $number;

@@ -12,7 +12,7 @@ const ALLOWED_BLOCKS = [ 'egov-bootstrap-grid/bootstrap-column' ]
 registerBlockType( 'egov-bootstrap-grid/bootstrap-row', {
 	title: __( 'Bootstrap Row', 'egov' ),
 	icon: 'admin-page',
-	category: 'egov', 
+	category: 'egov-bootstrap-grid', 
 	keywords: [
 		__( 'bootstrap row', 'egov' ),
 		__( 'EgovBlock Bootstrap Row', 'egov' ),

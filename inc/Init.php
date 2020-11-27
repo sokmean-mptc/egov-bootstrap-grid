@@ -4,7 +4,7 @@
  * @package Egov
  */
 
-namespace Inc;
+namespace EBG;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -20,8 +20,7 @@ final class Init
     public static function getServices() {
         return array(
             LoadSettings::class,
-            RegisterAsset::class,
-            Blocks\BootstrapContainer::class
+            RegisterAsset::class
         );
     }
 

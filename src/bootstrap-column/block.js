@@ -11,7 +11,7 @@ const { InnerBlocks, InspectorControls, RichText } = wp.blockEditor;
 registerBlockType( 'egov-bootstrap-grid/bootstrap-column', {
 	title: __( 'Bootstrap Column', 'egov' ),
 	icon: 'admin-page',
-	category: 'egov', 
+	category: 'egov-bootstrap-grid', 
 	keywords: [
 		__( 'bootstrap column', 'egov' ),
 		__( 'grid', 'egov' ),

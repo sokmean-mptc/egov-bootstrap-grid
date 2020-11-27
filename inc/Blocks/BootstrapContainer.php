@@ -4,7 +4,7 @@
  * @package Egov
  */
 
-namespace Inc\Blocks;
+namespace EBG\Blocks;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 class BootstrapContainer
 {
     public function register() {
-        // add_action( "init", array( $this, "registerBlock" ) );
+        add_action( "init", array( $this, "registerBlock" ) );
     }
 
     public function registerBlock() {

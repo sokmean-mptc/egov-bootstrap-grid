@@ -4,8 +4,8 @@
  * @package Egov
  */
 
-namespace Inc;
-use Inc\Base\BaseController;
+namespace EBG;
+use EBG\Base\BaseController;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -21,16 +21,21 @@ class LoadSettings extends BaseController
 
     public function loadTextDomain() {
         load_plugin_textdomain( 'egov', FALSE, $this->plugin. '/languages/' );
-        wp_set_script_translations( 'egov-bootstrap-grid', 'egov', $this->plugin_path . 'languages'  );
+        wp_set_script_translations( $this->plugin_name, 'egov', $this->plugin_path . 'languages' );
     }
 
     public function registerBlockCategory( $categories ) {
+        foreach( $categories as $item ) {
+            if( $item['slug'] == $this->plugin_name ) {
+                return $categories;
+            }
+        }
         return array_merge(
             $categories,
             array(
                 array(
-                    'slug' => 'egov',
-                    'title' => __( 'Egov', 'egov' ),
+                    'slug' => $this->plugin_name,
+                    'title' => __( 'Egov Bootstrap Grid', 'egov' ),
                     'icon'  => '',
                 ),
             )
