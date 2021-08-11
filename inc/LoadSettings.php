@@ -16,7 +16,7 @@ class LoadSettings extends BaseController
 {
     public function register() {
         add_action( "init", array( $this, "loadTextDomain" ) );
-        add_filter( 'block_categories', array( $this, "registerBlockCategory" ), 10, 2 );
+        add_filter( 'block_categories_all', array( $this, "registerBlockCategory" ), 10, 2 );
     }
 
     public function loadTextDomain() {

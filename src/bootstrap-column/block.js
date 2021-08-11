@@ -1,5 +1,5 @@
-import './style.scss'
-import './editor.scss'
+// import './style.scss'
+// import './editor.scss'
 import MarkText from '../components/MarkText.jsx'
 import Column from '../components/Column.jsx'
 const { __ } = wp.i18n;
