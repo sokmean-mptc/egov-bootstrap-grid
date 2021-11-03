@@ -29,7 +29,8 @@ registerBlockType( 'egov-bootstrap-grid/bootstrap-container', {
 	},
 	edit: ( { attributes, setAttributes } ) => {
 
-		const { mark_text, container_toggle_panel } = attributes
+		const { mark_text, container_toggle_panel, container, className } = attributes
+		const advanced_class = className ? className : ''
 		return (
 			<Fragment>
 				<InspectorControls>
@@ -52,8 +53,7 @@ registerBlockType( 'egov-bootstrap-grid/bootstrap-container', {
 						/>
 					</PanelBody>
 				</InspectorControls>
-				<div className={ `border border-light p-3` }>
-					<small>{ mark_text }</small>		
+				<div style={{minHeight: '40px'}} className={ `border ${container} ${advanced_class}` }>
 					<InnerBlocks />
 				</div>
 			</Fragment>

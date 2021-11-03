@@ -20,7 +20,8 @@ final class Init
     public static function getServices() {
         return array(
             LoadSettings::class,
-            RegisterAsset::class
+            RegisterAsset::class,
+            Blocks\BootstrapContainer::class
         );
     }
 

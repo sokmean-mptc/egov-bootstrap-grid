@@ -4,7 +4,7 @@ import MarkText from '../components/MarkText.jsx'
 import RowColumns from '../components/RowColumns.jsx'
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
-const { InnerBlocks, InspectorControls, RichText } = wp.blockEditor;
+const { InnerBlocks, InspectorControls  } = wp.blockEditor;
 const { PanelBody, CheckboxControl } = wp.components;
 const { Fragment } = wp.element;
 const ALLOWED_BLOCKS = [ 'egov-bootstrap-grid/bootstrap-column' ]
@@ -53,7 +53,8 @@ registerBlockType( 'egov-bootstrap-grid/bootstrap-row', {
 		}
 	},
 	edit: ( { attributes, setAttributes } ) => {
-		const { mark_text, row_toggle_panel, enable_gutter } = attributes
+		const { mark_text, row_toggle_panel, enable_gutter, className, row_cols, row_cols_sm, row_cols_md, row_cols_lg, row_cols_xl } = attributes
+		const advanced_class = className ? className : ''
 		return (
 			<Fragment>
 				<InspectorControls>
@@ -83,8 +84,7 @@ registerBlockType( 'egov-bootstrap-grid/bootstrap-row', {
 						/>
 					</PanelBody>
 				</InspectorControls>
-				<div className={ `border border-light p-3` }>
-					<small>{ mark_text }</small>
+				<div style={{minHeight: '40px'}} className={ `border ${enable_gutter ? 'no-gutters row' : 'row'} ${advanced_class} ${row_cols} ${row_cols_sm} ${row_cols_md} ${row_cols_lg} ${row_cols_xl} ` }>
 					<InnerBlocks  
 						allowedBlocks={ ALLOWED_BLOCKS }
 					/>

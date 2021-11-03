@@ -21,7 +21,7 @@ class RegisterAsset extends BaseController
 
 	public function registerScripts() {
 		wp_register_script(
-			$this->plugin_name . '-js',
+			'egov-bootstrap-grid-js',
 			$this->plugin_url . 'build/index.js',
 			array( 'wp-block-editor', 'wp-blocks', 'wp-element', 'wp-i18n', 'wp-polyfill' )
 		);

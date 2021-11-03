@@ -20,9 +20,7 @@ class BootstrapContainer
     public function registerBlock() {
         register_block_type(
             'egov-bootstrap-grid/bootstrap-container', array(
-                'style'         => 'egov-block-style',
-                'editor_script' => 'egov-block-js',
-                'editor_style'  => 'egov-block-editor-css',
+                'editor_script' => 'egov-bootstrap-grid-js',
             )
         );
     }
