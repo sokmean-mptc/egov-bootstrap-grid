@@ -1,6 +1,6 @@
 {
   "name": "egov-bootstrap-grid",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A full fill Bootstrap grid system for WordPress Gutenberg plugin.",
   "scripts": {
     "build": "wp-scripts build",
